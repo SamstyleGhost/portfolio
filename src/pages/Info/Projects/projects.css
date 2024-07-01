@@ -1,1 +1,18 @@
-/*# sourceMappingURL=projects.css.map */
+.projects__container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.project__container > div {
+  display: flex;
+  gap: 8px;
+  padding: 4px 0px 8px 0px;
+}
+.project__container > div > p {
+  font-size: 20px;
+}
+.project__container > p {
+  text-align: justify;
+}/*# sourceMappingURL=projects.css.map */

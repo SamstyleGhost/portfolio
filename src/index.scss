@@ -9,7 +9,7 @@
 
 main {
   font-family: "Quicksand", sans-serif;
-  min-width: 100dvw;
+  max-width: 100dvw;
   min-height: 100dvh;
   display: flex;
   flex-direction: row;
@@ -22,4 +22,16 @@ main {
   main {
     flex-direction: column;
   }
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: $background;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $accent_3;
 }

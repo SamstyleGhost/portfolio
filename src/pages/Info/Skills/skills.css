@@ -1,26 +1,26 @@
-section > div {
+.skills__container > div {
   padding: 20px 0px;
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-section > div > div {
+.skills__container > div > div {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   padding: 4px 0px;
 }
-section > div > div p {
+.skills__container > div > div p {
   font-size: 24px;
   font-weight: 600;
   padding: 8px;
   border-radius: 4px;
   border: 1px solid #EFF424;
 }
-section > div > div .ok {
+.skills__container > div > div .ok {
   border: 1px solid #45E2EF;
 }
-section > div > div .use {
+.skills__container > div > div .use {
   border: 2px solid #366e4c;
 }
 
