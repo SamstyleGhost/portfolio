@@ -1,0 +1,11 @@
+@import "./../../styles/variables";
+
+.about__main {
+  width: 50%;
+}
+
+@media (max-width: $tablet_breakpoint) {
+  .about__main {
+    width: 100%;
+  }
+}

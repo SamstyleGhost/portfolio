@@ -1,0 +1,25 @@
+.info__main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+section > h4 {
+  font-size: 24px;
+  text-align: left;
+  font-weight: 500;
+  color: #E6DFC5;
+}
+section h3 {
+  font-size: 32px;
+}
+
+@media (max-width: 960px) {
+  section > h4 {
+    text-align: center;
+  }
+}/*# sourceMappingURL=info.css.map */

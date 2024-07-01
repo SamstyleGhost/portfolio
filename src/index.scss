@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import './styles/variables';
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Quicksand", sans-serif;
+  min-width: 100dvw;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: row;
+  background: $background;
+  color: $text;
+  overflow-x: hidden;
+}
+
+@media (max-width: $tablet_breakpoint) {
+  main {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Quicksand", sans-serif;
+  min-width: 100dvw;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: row;
+  background: #233D4D;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+@media (max-width: 960px) {
+  main {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=index.css.map */

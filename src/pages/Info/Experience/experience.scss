@@ -1,0 +1,33 @@
+@import "./../../../styles/variables";
+
+li {
+  list-style: none;
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 80px;
+    > h5 {
+      font-size: 20px;
+      font-weight: 500;
+      
+    }
+  }
+  a {
+    text-decoration: none;
+    color: $text;
+    cursor: pointer;
+    :hover {
+      color: $accent_1;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  > :nth-child(2) {
+    padding-bottom: 12px;
+  }
+}
