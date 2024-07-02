@@ -8,7 +8,6 @@
 main {
   font-family: "Quicksand", sans-serif;
   max-width: 100dvw;
-  min-height: 100dvh;
   display: flex;
   flex-direction: row;
   background: #233D4D;
@@ -21,14 +20,17 @@ main {
     flex-direction: column;
   }
 }
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-::-webkit-scrollbar-track {
-  background: #233D4D;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #45E2EF;
+@media (min-width: 960px) {
+  main {
+    max-height: 100dvh;
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #233D4D;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #45E2EF;
+  }
 }/*# sourceMappingURL=index.css.map */

@@ -12,6 +12,7 @@ const Skills = () => {
           <p>HTML</p>
           <p>CSS</p>
           <p class="ok">C</p>
+          <p class="ok">Go</p>
           <p class="ok">Java</p>
           <p class="ok">Python</p>
           <p class="ok">Lua</p>

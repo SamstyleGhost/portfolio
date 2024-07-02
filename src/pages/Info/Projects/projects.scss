@@ -12,6 +12,7 @@
 .project__container {
   > div {
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     padding: 4px 0px 8px 0px;
     > p {

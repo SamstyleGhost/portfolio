@@ -10,7 +10,6 @@
 main {
   font-family: "Quicksand", sans-serif;
   max-width: 100dvw;
-  min-height: 100dvh;
   display: flex;
   flex-direction: row;
   background: $background;
@@ -24,14 +23,21 @@ main {
   }
 }
 
-::-webkit-scrollbar {
-  width: 4px;
-}
+@media (min-width: $tablet_breakpoint) {
 
-::-webkit-scrollbar-track {
-  background: $background;
-}
+  main {
+    max-height: 100dvh;
+  }
 
-::-webkit-scrollbar-thumb {
-  background: $accent_3;
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: $background;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $accent_3;
+  }
 }
