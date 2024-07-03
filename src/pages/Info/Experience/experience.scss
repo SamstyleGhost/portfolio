@@ -33,3 +33,13 @@ li {
     padding-bottom: 12px;
   }
 }
+
+@media (max-width: $tablet_breakpoint) {
+
+  li {
+    > div {
+      display: block;
+    }
+  }
+
+}

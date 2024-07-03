@@ -23,6 +23,11 @@ section {
 }
 
 @media (max-width: $tablet_breakpoint) {
+
+  .info__main {
+    padding: 40px 20px;
+  }
+
   section {
     > h4 {
       text-align: center;

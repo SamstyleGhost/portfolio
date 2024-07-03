@@ -19,6 +19,9 @@ section h3 {
 }
 
 @media (max-width: 960px) {
+  .info__main {
+    padding: 40px 20px;
+  }
   section > h4 {
     text-align: center;
   }

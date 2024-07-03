@@ -6,6 +6,8 @@
   flex-direction: column;
   padding: 40px;
   gap: 20px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .about__container {
