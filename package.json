@@ -2,6 +2,7 @@
   "name": "vite-template-solid",
   "version": "0.0.0",
   "description": "",
+  "homepage": "https://samstyleghost.github.io/portfolio/",
   "scripts": {
     "start": "vite",
     "dev": "vite",

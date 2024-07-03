@@ -6,7 +6,7 @@ const Certifications = () => {
       <h4>Certifications</h4>
       <ul>
         <li>
-          <h5>AWS Certified Cloud Practitioner</h5>
+          <a href="https://drive.google.com/file/d/1RLNceyxHined9pkMWdIkriM-uQqZW6PQ/view?usp=sharing" target="_blank" rel="noopener"><h5>AWS Certified Cloud Practitioner</h5></a>
         </li>
       </ul>
     </section>

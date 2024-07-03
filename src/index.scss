@@ -41,3 +41,10 @@ main {
     background: $accent_3;
   }
 }
+
+.arrow {
+  :hover {
+    transform: translateX(4px) translateY(-4px) scale(1.1);
+    transition: all 0.2s;
+  }
+}
