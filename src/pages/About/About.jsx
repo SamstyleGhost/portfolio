@@ -14,7 +14,7 @@ const About = () => {
             <h4>B.Tech in Computer Engineering, VIT Pune 2021-2025</h4>
             <h4>CGPA: 8.65</h4>
           </div>
-          <p>Lorem ullamco labore tempor consectetur reprehenderit cillum fugiat consectetur ex ad magna. Lorem et voluptate dolor aliquip ipsum ullamco adipisicing culpa proident eiusmod non mollit officia magna. Et aliquip est aliquip in et dolor. Occaecat laborum adipisicing eu id consectetur laboris duis irure. Id incididunt duis occaecat sit ipsum officia cupidatat voluptate excepteur et duis eu fugiat.</p>
+          <p>A passionate music lover ( & music producer ), I decided to try my hand at frontend programming as a way of letting my creativity flow and bring beautiful designs to life. Soon, fell in love with programming itself and currently learning and striving to build and understand systems & applications that are not only visually attractive but also allow for seamless and efficient way of living.</p>
         </div>
         <div class="socials">
           <a href="https://github.com/SamstyleGhost">

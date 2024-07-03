@@ -1,3 +1,5 @@
+import { Motion } from "solid-motionone";
+
 import "./info.css";
 
 import Experience from "./Experience/Experience"
@@ -7,12 +9,15 @@ import Certifications from "./Certifications/Certifications";
 
 const Info = () => {
   return (
-    <div class="info__main">
+    <Motion.div
+      animate={{ opacity: [0, 1] }}
+      transition={{ duration: 2, easing: "ease-in-out" }}
+      class="info__main">
       <Experience />
       <Skills />
       <Projects />
       <Certifications />
-    </div>
+    </Motion.div>
   )
 }
 

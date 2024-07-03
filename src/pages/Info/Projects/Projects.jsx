@@ -2,7 +2,7 @@ import { For } from "solid-js";
 import "./projects.css";
 
 const Project = (props) => {
-  return (    
+  return (
     <div class="project__container">
       <h3>{props.title}</h3>
       <div>
@@ -20,30 +20,30 @@ const Projects = () => {
     <section class="projects__container">
       <h4>Projects</h4>
       <div>
-        <Project 
-          title="Cloud based music player using AWS services - Miles Music" 
+        <Project
+          title="Cloud based music player using AWS services - Miles Music"
           stack={["RDS", "S3", "DynamoDB", "Lambda", "API Gateway", "CloudFront", "Cognito", "SolidJS", "TailwindCSS"]}
-          description="Laboris excepteur quis incididunt non deserunt officia ipsum eu amet veniam dolore sunt elit eu. Enim labore dolore consectetur officia nulla. Id veniam mollit commodo veniam irure sint mollit sint amet sit cillum mollit ex cillum. Eiusmod magna laboris sit laborum. Nulla elit dolor proident consequat cillum dolore. Et sint aliqua mollit ex laboris consectetur aliquip culpa sint. Proident elit irure sunt esse id elit sunt culpa ea."
+          description="Used various AWS services to build a music player application connected with the cloud. Had features such as login / signup using AWS Cognito, different databases for different use cases (DynamoDB for user profiles, RDS for song metadata, S3 buckets for song files), creatiing / deleting playlists, adding own songs. REST APIs have been implemented using API Gateway and connected to the application using AWS Lambda. It also has a CDN layer in the form of Cloudfront."
         />
-        <Project 
-          title="An AI Legal Assistant - Better Call AI" 
+        <Project
+          title="An AI Legal Assistant - Better Call AI"
           stack={["NextJS", "Supabase", "MongoDB", "TailwindCSS", "OpenAI", "Python"]}
-          description="Nulla dolore laborum pariatur elit eu quis. Incididunt id nostrud ad do sit. Do elit ex incididunt reprehenderit culpa nisi elit. Velit veniam velit nostrud nisi ex non sint tempor minim commodo anim. Quis magna elit aute irure magna tempor occaecat nulla non sunt dolor quis culpa anim. In aute sunt deserunt dolor incididunt cillum officia occaecat ut mollit magna fugiat nulla ut. Enim sunt elit id proident quis dolore anim commodo commodo aliqua incididunt occaecat veniam."
+          description="Trained a chatbot on the Indian Legal System. Built as a group project, designed and developed the database (Supabase to store the vector embeddings, MongoDB to store the legal ontology), built a pipeline using a python script that used Puppeteer & Cheerios to scrape the indiacode.nic.in website and build chunks, create vector embeddings, store in the database along with the actual text and metadata, seperate out the legal ontology and store in a database for better context"
         />
-        <Project 
-          title="Crypto Monitoring Tool - Nelson&Murdock" 
-          stack={["Django", "Neo4J", "ReactJS"]}
-          description="Exercitation cillum in reprehenderit deserunt mollit est in enim commodo. Ad in minim est velit amet esse in exercitation consectetur voluptate eiusmod culpa incididunt elit. Aute cillum magna do labore eiusmod quis fugiat consequat velit consequat nulla. Duis nulla velit irure eu adipisicing magna Lorem fugiat anim fugiat occaecat. Nostrud fugiat laboris amet laboris. Sit ipsum non incididunt sit magna do cupidatat. Irure ipsum tempor cillum et consectetur nulla ea laborum occaecat sint mollit ut elit dolor."
+        <Project
+          title="Crypto Monitoring Tool - Nelson&Murdock"
+          stack={["Django", "Neo4J", "SolidJS"]}
+          description="This was a group project built to visualize the graph network, the ins and outs transactions of a bitcoin wallet / transaction. Used web scraping methods to get list of transactions of a bitcoin address, and using Cypher Query Language, built a network of connected addresses, ran algorithms like PageRank and GraphSAGE on the network for additional information of the graph. The graph was also displayed visually in the frontend using VisJS library in SolidJS."
         />
-        <Project 
+        <Project
           title="Video Conferencing Webapp - RTChat"
-          stack={["SolidJS", "NodeJS", "Socket.io", "PeerJS"]}
-          description="Ex dolore ullamco nisi amet mollit anim duis laboris velit tempor proident nulla occaecat. Non veniam sunt duis laboris deserunt elit nostrud eiusmod eiusmod minim adipisicing ea quis deserunt. Dolore Lorem cupidatat deserunt duis minim Lorem ex adipisicing reprehenderit. Ipsum sunt cupidatat Lorem irure sunt elit. Velit et exercitation consequat officia Lorem Lorem."
+          stack={["SolidJS", "ReactJS", "NodeJS", "Socket.io", "PeerJS"]}
+          description="Learnt and used the concepts of WebSockets and WebRTC to build a video conferencing application that allowed users to connect in a group call with the features of mute / unmute audio, enable / disable video, in-meet chat. The frontend is made using SolidJS (initially it was made with React, but built again with SolidJS) while the backend is made using NodeJS & Socket.io for the websocket connections."
         />
-        <Project 
+        <Project
           title="Custom Compiler"
           stack={["C++"]}
-          description="Tempor veniam sunt do deserunt ut ullamco labore amet proident sint nulla velit. Incididunt proident velit pariatur ullamco exercitation Lorem consequat do non pariatur exercitation nostrud. Ea irure duis tempor aute ut Lorem qui incididunt cillum id. Nulla aliquip eiusmod anim mollit deserunt velit aliqua aliqua magna incididunt eiusmod elit ad commodo."
+          description="Building a custom language to implement Compiler Design principles. It is currently a work in progress."
         />
       </div>
     </section>

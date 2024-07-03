@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "sass": "^1.77.6",
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.11",
+    "solid-motionone": "^1.0.0"
   }
 }

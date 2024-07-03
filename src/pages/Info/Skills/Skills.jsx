@@ -32,7 +32,6 @@ const Skills = () => {
           <p>Strapi CMS</p>
           <p>MongoDB</p>
           <p>Stripe</p>
-          <p>MongoDB</p>
           <p>Git</p>
           <p>Blockchain / Web3</p>
           <p>AWS Cloud</p>
@@ -41,6 +40,7 @@ const Skills = () => {
           <p>ShadCN UI</p>
           <p class="ok">Supabase</p>
           <p class="ok">Figma</p>
+          <p class="ok">Cypher (CQL)</p>
         </div>
         <div>
           <p class="use">Wezterm</p>
