@@ -21,7 +21,7 @@ const Project = (props) => {
         </For>
       </div>
       <p>{props.description}</p>
-      
+
     </div>
   )
 }
@@ -55,6 +55,11 @@ const Projects = () => {
           stack={["SolidJS", "ReactJS", "NodeJS", "Socket.io", "PeerJS"]}
           description="Learnt and used the concepts of WebSockets and WebRTC to build a video conferencing application that allowed users to connect in a group call with the features of mute / unmute audio, enable / disable video, in-meet chat. The frontend is made using SolidJS (initially it was made with React, but built again with SolidJS) while the backend is made using NodeJS & Socket.io for the websocket connections."
           github="https://github.com/SamstyleGhost/video-chat-solid"
+        />
+        <Project
+          title="AI Image Generation + Web3 NFTs - CantDraw"
+          stack={["ReactJS", "VerbWire API", "ProdiaAI API", "IPFS", "OpenSea"]}
+          description={`Built this project in a span of 50 hours for the SoftCodeHack 1.0 organized by PhicsIt. CantDraw allowed you to generate AI images using prompts which could then be minted as NFTs. The project won the in the "Best Use of Verbwire API" and "Most Creative Use of Verbwire API" tracks.`}
         />
         <Project
           title="Custom Compiler"
